@@ -16,7 +16,7 @@ class SecureImageViewer extends StatefulWidget {
   final String? watermarkText;
 
   const SecureImageViewer({
-    Key? key,
+    super.key,
     this.imageProvider,
     this.encryptedBytes,
     this.decryptionKey,
@@ -27,7 +27,7 @@ class SecureImageViewer extends StatefulWidget {
     this.onExpire,
     this.onCaptureDetected,
     this.watermarkText,
-  }) : super(key: key);
+  });
 
   @override
   State<SecureImageViewer> createState() => _SecureImageViewerState();

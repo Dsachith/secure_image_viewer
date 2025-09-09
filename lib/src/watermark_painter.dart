@@ -7,7 +7,7 @@ class WatermarkPainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
-    final paint = Paint()..color = Colors.black.withOpacity(0.1);
+   // final paint = Paint()..color = Colors.black.withOpacity(0.1);
     final textPainter = TextPainter(
       text: TextSpan(text: text, style: const TextStyle(fontSize: 24, color: Colors.black)),
       textDirection: TextDirection.ltr,
