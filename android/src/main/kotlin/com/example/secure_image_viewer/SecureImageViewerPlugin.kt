@@ -1,4 +1,4 @@
-package com.example.secureimageviewer
+package com.example.secure_image_viewer
 
 import android.app.Activity
 import android.view.WindowManager
