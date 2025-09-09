@@ -1,6 +1,6 @@
 name: secure_image_viewer
 description: A secure image viewer widget that prevents screenshots, supports encrypted images, watermarks, and auto-expiry.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/Dsachith/secure_image_viewer.git
 
 environment:
